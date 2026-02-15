@@ -17,8 +17,8 @@
 
 ### 2.2. Ports  
 * Là các **Interface** giúp Core giao tiếp với bên ngoài .
-**Input Ports:** định nghĩa những gì lõi có thể thực hiện .
-**Output Ports:** định nghĩa những gì lõi cần từ bên ngoài .
+* **Input Ports:** định nghĩa những gì lõi có thể thực hiện .
+* **Output Ports:** định nghĩa những gì lõi cần từ bên ngoài .
 
 ### 2.3. Adapters  
 * Là phần mã cụ thể dùng để kết nối với các công nghệ thực tế.
@@ -73,7 +73,7 @@ Quy trình đi từ tổng quan đến chi tiết để nắm bắt khái niệm
 * **Bước 1: Research (Nghiên cứu tổng quan)**
     Hỏi AI về định nghĩa, nguyên tắc cốt lõi của Hexagonal Architecture.
     ![Bước 1 Research](images/research_step1.png)
-    *Hình 4: Khởi tạo ngữ cảnh và tìm hiểu khái niệm [cite: 23]*
+    *Hình 4: Khởi tạo ngữ cảnh và tìm hiểu khái niệm*
 
 * **Bước 2: Brief Feature (Mô tả tính năng)**
     Yêu cầu AI mô tả luồng dữ liệu chi tiết khi có Request đi vào hệ thống.
@@ -97,7 +97,7 @@ Quy trình đi từ tổng quan đến chi tiết để nắm bắt khái niệm
 
 
 ## 7.2. Kỹ thuật Iterative Refinement (Tinh chỉnh mã nguồn)
-Quy trình yêu cầu AI sinh code, sau đó phát hiện lỗi và yêu cầu AI sửa lại để tối ưu hóa[cite: 30].
+Quy trình yêu cầu AI sinh code, sau đó phát hiện lỗi và yêu cầu AI sửa lại để tối ưu hóa.
 
 * **Bước 1: AI Generate (Sinh mã ban đầu)**
     AI tạo ra đoạn code mẫu nhưng còn thiếu sót (validation, format).
